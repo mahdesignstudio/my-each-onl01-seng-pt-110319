@@ -1,9 +1,9 @@
-def my_each(words)
+def my_each(collection)
   i = 0 
-  while i < words.length 
-yield words[i]
+  while i < collection.length 
+yield collection[i]
   i = i+1 
 end 
-words 
+collection 
 end
 
